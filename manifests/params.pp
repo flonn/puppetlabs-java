@@ -40,8 +40,8 @@ class java::params {
           }
         }
         'Amazon': {
-          $jdk_package = 'java-1.7.0-openjdk-devel'
-          $jre_package = 'java-1.7.0-openjdk'
+          $jdk_package = 'java-1.8.0-openjdk-devel'
+          $jre_package = 'java-1.8.0-openjdk'
         }
         default: { fail("unsupported os ${::operatingsystem}") }
       }
